@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>AIMT HOMEWORK 5</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id='title'>AIMT CUSTOM FORM</h1>
+            <p id='description'>
+                form make with responsive view test
+            </p>
+        </header>
+
+        <form id='res-form' action="index.html" method="get">
+            <div class='form-input'>
+                <label id='name-label'>Name</label>
+                <input type='text' id='name' placeholder='Enter your name' class='form-input-size' required />
+            </div>
+            <div class='form-input'>
+                <label id='email-label'>Email</label>
+                <input type='email' id='email' placeholder='Enter your email' class='form-input-size' required />
+            </div>
+            <div class='form-input'>
+                <label id='number-label'>Age
+                    <span>(optional)</span>
+                </label>
+                <input type='number' id='number' placeholder='25' min='0' max='80' class='form-input-size' />
+            </div>
+
+            <div class='form-input'>
+                <p>What is your Blood Group</p>
+                <select id='dropdown' class='form-input-size' required>
+                    <option disabled selected value>Select blood group</option>
+                    <option value='A'>A</option>
+                    <option value='B'>B</option>
+                    <option value='AB'>AB</option>
+                    <option value='O'>O</option>
+                    <option value='Other'>Other</option>
+                </select>
+            </div>
+
+            <div class='form-input'>
+                <p>Select your gender</p>
+                <input type='radio' name='answer' id='radio-btn' value='male' checked />Male </br>
+                <input type='radio' name='answer' id='radio-btn' value='female' />Female </br>
+                <input type='radio' name='answer' id='radio-btn' value='other' />Other </br>
+            </div>
+
+            <div class='form-input'>
+                <p>What are your favorite Technology Languages and Frameworks?
+                    <span>(Check all that apply)</span>
+                </p>
+                <label><input type='checkbox' id='check-box' value='Ruby on Rails'>Ruby on Rails</label>
+                <label><input type='checkbox' id='check-box' value='JavaScript'>JavaScript</label>
+                <label><input type='checkbox' id='check-box' value='React'>React</label>
+                <label><input type='checkbox' id='check-box' value='Python'>Python</label>
+                <label><input type='checkbox' id='check-box' value='Java'>Java</label>
+                <label><input type='checkbox' id='check-box' value='PHP'>PHP</label>
+                <label><input type='checkbox' id='check-box' value='Angular'>Angular</label>
+                <label><input type='checkbox' id='check-box' value='Vue'>Vue</label>
+                <label><input type='checkbox' id='check-box' value='Swift'>Swift</label>
+                <label><input type='checkbox' id='check-box' value='HTML'>HTML</label>
+                <label><input type='checkbox' id='check-box' value='CSS'>CSS</label>
+                <label><input type='checkbox' id='check-box' value='Other'>Other</label>
+            </div>
+
+            <div class='form-input'>
+                <p>Message</p>
+                <textarea type='text' placeholder='Enter your Message here...'></textarea>
+            </div>
+
+                <div class='form-input'>
+                    <button type='submit' id='submit'>Submit</button>
+                    <button type='reset' id='reset'>Reset</button>
+                </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

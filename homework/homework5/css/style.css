@@ -1,0 +1,27 @@
+*{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tablebody{
+    text-align: left;
+    width: 70%;
+}
+
+.head{
+    text-align: center;
+    width: 70%;
+}
+
+tr{
+    height: 40px;
+}
+
+input[type=text],[type=email],[type=submit],[type=reset] ,select{
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 25px;
+    padding: 5px;
+    margin: 3px;
+}

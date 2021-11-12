@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AIMT HOMEWORK 5</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+        <table align="center" border="3px" class="head">
+            <tr>
+                <td>
+                    <h1>Student Registration Form</h1>
+                </td>
+            </tr>
+        </table>
+    <br><br>
+    <!-- FORM SECTION -->
+    <div>
+        <form action="/aimt-training/homework/homework5/index.html" method="get">
+            <table align="center" class="tablebody">
+                <tr>
+                    <td>Name</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="text" name="name" placeholder="Enter Full Name" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="text" name="fname" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="text" name="mname" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="text" name="ph" placeholder="+95 9 XXXXXXXXX" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td><input type="email" name="email" placeholder="sample@example.com" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> <label for="male"> Male </label>
+                        <input type="radio" name="gender" value="female"> <label for="female"> Female </label>
+                        <input type="radio" name="gender" value="other"> <label for="other"> Other </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="text" name="dob-dd" size="5"> <label for="dd"></label> -
+                        <input type="text" name="dob-mm"  size="5"> <label for="mm"></label> -
+                        <input type="text" name="dob-yyyy" size="10"> <label for="yyyy"></label>
+                        <em>(dd-mm-yyyy)</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="text" name="address" size="70" placeholder="Street:-  House:-  Road:-">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blood Group</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <select name="bgroup">
+                            <option value="">Select</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="AB">AB</option>
+                            <option value="O">O</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="radio" name="dpm" value="cse"> <label for="cse"> CSE </label>
+                        <input type="radio" name="dpm" value="eee"> <label for="eee"> EEE </label>
+                        <input type="radio" name="dpm" value="bba"> <label for="bba"> BBA </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="checkbox" name="course" value="c"> <label for="c">C</label>
+                        <input type="checkbox" name="course" value="cpp"> <label for="cpp">C++</label>
+                        <input type="checkbox" name="course" value="java"> <label for="java">Java</label>
+                        <input type="checkbox" name="course" value="ai"> <label for="ai">AI</label>
+                        <input type="checkbox" name="course" value="ml"> <label for="ml">Machine Learning</label>
+                        <input type="checkbox" name="course" value="robot"> <label for="robot">Robotics</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td>&nbsp;:&nbsp;</td>
+                    <td>
+                        <input type="file" name="photo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" style="width: 100px; height: 30px;">
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="reset" style="width: 100px; height: 30px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
